@@ -1,0 +1,100 @@
+.banner {
+    height: 54px;
+    line-height: 1.5;
+    background: black;
+    color: white;
+    font-family: spotify-bold;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    letter-spacing: normal;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-container {
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    width: auto;
+}
+
+.logo-wrapper {
+    margin-top: 13px;
+    display: inline-block;
+}
+
+.logo {
+    width: 89px;
+    height: 27px;
+    fill: white;
+    display: inline-block;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.desktop-menu {
+    animation: slideInFromRightFadeIn 500ms;
+    display: none;
+}
+
+.mobile-closed-line {
+    width: 22px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+}
+
+.mobile-closed {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-menu {
+    display: block;
+    align-self: center;
+}
+
+.menuitem {
+    padding: 28px 17px;
+    font-weight: 700;
+}
+
+.menuitem:last-child {
+    padding-right: 0px;
+}
+
+.right-menuitem {
+    color: #d9dadc
+}
+
+.divider {
+    background-color: #d9dadc;
+    font-family: auto;
+    margin: auto 17px;
+    height: 16px;
+    width: 1px;
+}
+
+.mobile-menu button {
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 6px;
+    padding: 0;
+    font-size: 0;
+    font-weight: bold;
+    cursor: default;
+}
